@@ -1,0 +1,11 @@
+{
+    "node": true,
+    "laxcomma": true,
+    "undef": true,
+    "strict": true,
+    "unused": true,
+    "esnext": true,
+    "predef": [
+        "q", "describe", "before", "it", "expect"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+
+    "development": {
+        "host": "localhost",
+        "database": "stackoverflow-36561078"
+    },
+
+    "test": {
+        "host": "localhost",
+        "database": "stackoverflow-36561078"
+    },
+
+    "production": {
+        "host": "localhost",
+        "database": "stackoverflow-36561078"
+    }
+
+}

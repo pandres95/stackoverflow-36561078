@@ -1,0 +1,33 @@
+{
+  "name": "stackoverflow-36561078",
+  "version": "1.0.0",
+  "description": "API to demonstrate malfunction at www.stackoverflow.com/questions/36561078",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pandres95/stackoverflow-36561078.git"
+  },
+  "keywords": [
+    "stackoverflow",
+    "js",
+    "promises"
+  ],
+  "author": "Pablo Andrés Dorado Suárez <im@pandres95.me> (https://pandres95.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandres95/stackoverflow-36561078/issues"
+  },
+  "homepage": "https://github.com/pandres95/stackoverflow-36561078#readme",
+  "dependencies": {
+    "bool.js": "^0.5.9",
+    "booljs-mongoose": "^0.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.4.5"
+  }
+}
