@@ -20,5 +20,13 @@ describe('User', () => {
         return expect(model.signup(newUser)).to.eventually.eql(newUser);
     });
 
+    it('List users', (done) => {
+        model.find((err, list) => {
+            if(err) return done(err);
+            expect(list).to.have.length(1);
+            done();
+        });
+    });
+
 
 });
